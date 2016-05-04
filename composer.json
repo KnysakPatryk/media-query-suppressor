@@ -1,0 +1,17 @@
+{
+    "name": "knysakpatryk/media-query-supressor",
+    "description": "todo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patryk Knysak",
+            "homepage": "https://github.com/KnysakPatryk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KnysakPatryk\\MediaQuerySuppressor\\": "src/"
+        }
+    }
+
+}
