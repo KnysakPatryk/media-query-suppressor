@@ -3,7 +3,7 @@ This library allows you to "suppress" media queries in your dynamic html content
 Why would you do that? You have to do that if your site is responsive (for example based on Bootstrap) and you want to create non-responsive (classic) version of your site for mobile devices.
 
 ## Example use case
-Client has website based on Bootstrap.
+Our client has website based on Bootstrap.
 He wants to add classic version of the site - just by clicking on the button in the bottom of the page.
 Classic version should not vary on devices and screen sizes (non-responsive).
 
