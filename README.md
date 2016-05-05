@@ -1,2 +1,2 @@
-# Media Query Supressor
+# Media Query Suppressor
 Todo

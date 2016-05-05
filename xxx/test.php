@@ -1,5 +1,7 @@
 <?php
 
+use KnysakPatryk\MediaQuerySuppressor\Suppressor;
+
 require '../vendor/autoload.php';
 
-new \KnysakPatryk\MediaQuerySuppressor\Supressor();
+new Suppressor(new \KnysakPatryk\MediaQuerySuppressor\Strategy\ReduceStrategy());
