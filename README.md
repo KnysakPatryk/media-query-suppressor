@@ -12,3 +12,5 @@ Classic version should not vary on devices and screen sizes (non-responsive).
 1. First, we create another, non-responsive css spreadsheet for classic version (this step can be also done by this library).
 2. Next, we use this library to "suppress" any other media queries from dynamic html (for example loaded from database).
 3. Lastly, we add button at the bottom of the page, to switch website version cookie.
+
+In real world scenario, it's not going to be that easy, but this is only a simple use case example.
