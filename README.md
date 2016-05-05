@@ -7,7 +7,7 @@ Client has website based on Bootstrap.
 He wants to add classic version of the site - just by clicking on the button in the bottom of the page.
 Classic version should not vary on devices and screen sizes (non-responsive).
 
-How can we do that?
+##### How can we do that?
 
 1. First, we create another, non-responsive css spreadsheet for classic version (this step can be also done by this library).
 2. Next, we use this library to "suppress" any other media queries from dynamic html (for example loaded from database).
