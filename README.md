@@ -1,4 +1,4 @@
-# Media Query Suppressor [![Build Status](https://travis-ci.org/KnysakPatryk/media-query-suppressor.png)](https://travis-ci.org/KnysakPatryk/media-query-suppressor)
+# Media Query Suppressor [![Latest Stable Version](https://poser.pugx.org/knysakpatryk/media-query-suppressor/v/stable.png)](https://packagist.org/packages/knysakpatryk/media-query-suppressor)[![Build Status](https://travis-ci.org/KnysakPatryk/media-query-suppressor.png)](https://travis-ci.org/KnysakPatryk/media-query-suppressor)
 This library helps you to "suppress" media queries in your dynamic content.
 Why would you do that? You have to do that if your site is responsive (for example based on Bootstrap) and you want to create non-responsive (classic) version of your site for mobile devices.
 
