@@ -5,7 +5,7 @@ Why would you do that? You have to do that if your site is responsive (for examp
 ## Example use case
 Our client has website based on Bootstrap.
 He wants to add classic version of the site - just by clicking on the button in the bottom of the page.
-Classic version should not vary on devices and screen sizes (non-responsive).
+Classic version should not vary on different devices/screen sizes (non-responsive).
 
 ##### How can we do that?
 
