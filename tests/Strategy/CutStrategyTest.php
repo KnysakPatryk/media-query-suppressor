@@ -2,6 +2,7 @@
 
 class CutStrategyTest extends PHPUnit_Framework_TestCase
 {
+    /** @var \KnysakPatryk\MediaQuerySuppressor\Strategy\CutStrategy */
     public $cutStrategy;
     /** @var \KnysakPatryk\MediaQuerySuppressor\Suppressor */
     public $suppressor;

@@ -1,16 +1,15 @@
 <?php
 
-use KnysakPatryk\MediaQuerySuppressor\Suppressor;
-
 class SuppressorTest extends PHPUnit_Framework_TestCase
 {
     public $mock;
+    /** @var \KnysakPatryk\MediaQuerySuppressor\Suppressor */
     public $suppressor;
 
     public function setUp()
     {
         $this->mock = $this->getMock('\KnysakPatryk\MediaQuerySuppressor\Strategy\SuppressionStrategyInterface');
-        $this->suppressor = new Suppressor($this->mock);
+        $this->suppressor = new KnysakPatryk\MediaQuerySuppressor\Suppressor($this->mock);
     }
 
     /**
