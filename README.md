@@ -8,6 +8,22 @@ Many people creates media queries in many ways. For example they set them up to 
 1. rewrite all media queries (this can be painful)
 2. or cleverly choose suppression strategy to overcome the issue (but it's not always possible)
 
+## Usage
+```php
+$suppressionStrategy = new KnysakPatryk\MediaQuerySuppressor\Strategy\ReduceStrategy();
+$mediaQuerySuppressor = new KnysakPatryk\MediaQuerySuppressor\Suppressor($suppressionStrategy);
+
+echo $mediaQuerySuppressor->one('input string');
+```
+
+## Suppression strategies
+
+#### ReduceStrategy *(recommended)*
+This strategy is upgraded *CutStrategy*. It sets *max-width* directives to *1px* (because desktop version of site should not have upper width limits) and replaces min-width directives with corresponding replacement starting from *1px*. By this, you can overcome the override issue of *CutStrategy*.
+
+#### CutStrategy
+It sets *max-width* directives to *1px* and *min-width* directives to *2px*. This strategy works in the most simple cases, but can go wrong with complicated ones - because you can accidentally override other media query (which was not intended).
+
 ## Example use case
 Our client has website based on Bootstrap.
 He wants to add classic version of the site - just by clicking on the button in the bottom of the page.
