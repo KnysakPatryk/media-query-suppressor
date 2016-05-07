@@ -8,6 +8,15 @@ Many people creates media queries in many ways. For example they set them up to 
 1. rewrite all media queries (this can be painful)
 2. or cleverly choose suppression strategy to overcome the issue (but it's not always possible)
 
+## Installation
+
+Edit your project's composer.json file to require knysakpatryk/media-query-suppressor
+```javascript
+"require": {
+    "knysakpatryk/media-query-suppressor": "0.1.*"
+}
+```
+
 ## Usage
 ```php
 $suppressionStrategy = new KnysakPatryk\MediaQuerySuppressor\Strategy\ReduceStrategy();
