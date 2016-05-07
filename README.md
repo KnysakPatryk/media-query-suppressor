@@ -22,7 +22,9 @@ Edit your project's composer.json file to require knysakpatryk/media-query-suppr
 $suppressionStrategy = new KnysakPatryk\MediaQuerySuppressor\Strategy\ReduceStrategy();
 $mediaQuerySuppressor = new KnysakPatryk\MediaQuerySuppressor\Suppressor($suppressionStrategy);
 
-echo $mediaQuerySuppressor->one('input string');
+echo $mediaQuerySuppressor->one('string');
+// or
+var_dump $mediaQuerySuppressor->many(['string 1', 'string 2']);
 ```
 
 ## Suppression strategies
