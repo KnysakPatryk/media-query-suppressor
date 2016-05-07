@@ -6,6 +6,7 @@ namespace KnysakPatryk\MediaQuerySuppressor\Strategy;
  * Interface SuppressionStrategyInterface
  * @package KnysakPatryk\MediaQuerySuppressor\Strategy
  */
+// @codeCoverageIgnore
 interface SuppressionStrategyInterface
 {
     /**
