@@ -20,3 +20,6 @@ Classic version should not vary on different devices/screen sizes (non-responsiv
 3. Lastly, we add button at the bottom of the page, to switch website version.
 
 In real world scenario, it's not going to be that easy, but this is only a simple use case example.
+
+## License
+The library is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
