@@ -24,7 +24,7 @@ $mediaQuerySuppressor = new KnysakPatryk\MediaQuerySuppressor\Suppressor($suppre
 
 echo $mediaQuerySuppressor->one('string');
 // or
-var_dump $mediaQuerySuppressor->many(['string 1', 'string 2']);
+print_r($mediaQuerySuppressor->many(['string 1', 'string 2']));
 ```
 
 ## Suppression strategies
