@@ -2,6 +2,12 @@
 This library allows you to "suppress" media queries in your dynamic content.
 Why would you do that? You have to do that if your site is responsive (for example based on Bootstrap) and you want to create non-responsive (classic) version of your site for mobile devices.
 
+## Attention
+Many people creates media queries in many ways. For example they set them up to fire and achieve classic-like appearance, so the base CSS without media queries will be not full (classic) website, but (e.g.) mobile version. Website design should be coded in another way. Base CSS without media queries should be classic, desktop version and all media queries should apply to fit other devices. Wrongly coded website enforce us to:
+
+1. rewrite all media queries (this can be painful)
+2. or cleverly choose suppression strategy to overcome the issue (but it's not always possible)
+
 ## Example use case
 Our client has website based on Bootstrap.
 He wants to add classic version of the site - just by clicking on the button in the bottom of the page.
