@@ -1,5 +1,5 @@
 # Media Query Suppressor
-This library allows you to "suppress" media queries in your dynamic html content.
+This library allows you to "suppress" media queries in your dynamic content.
 Why would you do that? You have to do that if your site is responsive (for example based on Bootstrap) and you want to create non-responsive (classic) version of your site for mobile devices.
 
 ## Example use case
