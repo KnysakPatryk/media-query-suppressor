@@ -34,7 +34,7 @@ class CutStrategy implements SuppressionStrategyInterface
      */
     private function reduceMaxWidth($input)
     {
-        return preg_replace("#\((\s*max-width\s*)\s*:(.*)\)#xi", "(max-width:1px)", $input);
+        return preg_replace("#\((\s*max-width\s*)\s*:([^\)]*)\)#xi", "(max-width:1px)", $input);
     }
 
     /**
@@ -45,6 +45,6 @@ class CutStrategy implements SuppressionStrategyInterface
      */
     private function reduceMinWidth($input)
     {
-        return preg_replace("#\((\s*min-width\s*)\s*:(.*)\)#xi", "(min-width:2px)", $input);
+        return preg_replace("#\((\s*min-width\s*)\s*:([^\)]*)\)#xi", "(min-width:2px)", $input);
     }
 }
