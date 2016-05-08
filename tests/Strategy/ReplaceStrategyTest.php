@@ -1,16 +1,16 @@
 <?php
 
-class CutStrategyTest extends PHPUnit_Framework_TestCase
+class ReplaceStrategyTest extends PHPUnit_Framework_TestCase
 {
-    /** @var \KnysakPatryk\MediaQuerySuppressor\Strategy\CutStrategy */
-    public $cutStrategy;
+    /** @var \KnysakPatryk\MediaQuerySuppressor\Strategy\ReplaceStrategy */
+    public $replaceStrategy;
     /** @var \KnysakPatryk\MediaQuerySuppressor\Suppressor */
     public $suppressor;
 
     public function setUp()
     {
-        $this->cutStrategy = new KnysakPatryk\MediaQuerySuppressor\Strategy\CutStrategy();
-        $this->suppressor = new KnysakPatryk\MediaQuerySuppressor\Suppressor($this->cutStrategy);
+        $this->replaceStrategy = new KnysakPatryk\MediaQuerySuppressor\Strategy\ReplaceStrategy();
+        $this->suppressor = new KnysakPatryk\MediaQuerySuppressor\Suppressor($this->replaceStrategy);
     }
 
     /**
@@ -18,7 +18,7 @@ class CutStrategyTest extends PHPUnit_Framework_TestCase
      */
     public function can_create_cut_strategy_instance()
     {
-        $this->assertTrue($this->cutStrategy instanceof KnysakPatryk\MediaQuerySuppressor\Strategy\CutStrategy);
+        $this->assertTrue($this->replaceStrategy instanceof KnysakPatryk\MediaQuerySuppressor\Strategy\ReplaceStrategy);
     }
 
     /**

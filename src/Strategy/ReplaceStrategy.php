@@ -10,10 +10,10 @@ namespace KnysakPatryk\MediaQuerySuppressor\Strategy;
  * It replaces all min-width with the same value,
  * so place of media query directive in file really matters.
  *
- * Class CutStrategy
+ * Class ReplaceStrategy
  * @package KnysakPatryk\MediaQuerySuppressor\Strategy
  */
-class CutStrategy implements SuppressionStrategyInterface
+class ReplaceStrategy implements SuppressionStrategyInterface
 {
     /**
      * {@inheritdoc}

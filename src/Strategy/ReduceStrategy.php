@@ -4,7 +4,7 @@ namespace KnysakPatryk\MediaQuerySuppressor\Strategy;
 
 /**
  * This strategy is improved cut strategy.
- * It replaces min-width directives with corresponding replacement starting from 1px.
+ * It replaces min-width directives with corresponding replacements starting from 1px.
  *
  * Class ReduceStrategy
  * @package KnysakPatryk\MediaQuerySuppressor\Strategy

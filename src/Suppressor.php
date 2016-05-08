@@ -5,7 +5,7 @@ namespace KnysakPatryk\MediaQuerySuppressor;
 use KnysakPatryk\MediaQuerySuppressor\Strategy\SuppressionStrategyInterface;
 
 /**
- * This class helps you to "suppress" media queries in your dynamic content.
+ * This class helps you with "suppressing" media queries in your dynamic content.
  *
  * Class Suppressor
  * @package KnysakPatryk\MediaQuerySuppressor
