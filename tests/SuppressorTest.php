@@ -17,8 +17,6 @@ class SuppressorTest extends PHPUnit_Framework_TestCase
      */
     public function can_create_suppressor_instance()
     {
-
-
         $this->assertTrue($this->suppressor instanceof \KnysakPatryk\MediaQuerySuppressor\Suppressor);
     }
 
